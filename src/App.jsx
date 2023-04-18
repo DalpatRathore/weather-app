@@ -4,7 +4,7 @@ import CityWeather from "./CityWeather"
 function App() {
   
   return (
-    <main className="bg-gray-200 h-min">
+    <main className="bg-gray-200 h-screen">
     <h1 className="text-3xl md:text-6xl text-[#069] text-center font-bold py-5 drop-shadow-lg italic"> <span className="text-[#10a37f] not-italic">ChatGPT</span> Weather App </h1>
     <Weather></Weather>
     <CityWeather></CityWeather>
