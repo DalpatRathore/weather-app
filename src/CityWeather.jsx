@@ -27,7 +27,7 @@ const Weather = () => {
   };
 
   return (
-    <div className="container mx-auto mt-10 pb-10">
+    <div className="container mx-auto py-10 bg-gray-200">
       <form onSubmit={handleSubmit} className="mb-6">
         <label htmlFor="city" className="block text-gray-700 font-bold mb-2 text-center">
           Enter City Name

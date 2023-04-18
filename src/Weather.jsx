@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 
 const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+ 
 
 const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -35,7 +36,7 @@ const Weather = () => {
   if (error) {
     return (
       <div className="flex justify-center items-center h-auto py-10">
-        <div className="text-red-600 text-xl font-bold">{error.message}</div>
+        <div className="text-red-600 text-xl font-bold">Sorry something went wrong!</div>
       </div>
     );
   }
